@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "T101",
+    "name": "Katan",
+    "price": 60,
+    "labels": ["Box game"],
+    "createdAt": 1542117389454,
+    "inStock": true
+  },
+  {
+    "_id": "T102",
+    "name": "Doll",
+    "price": 50,
+    "labels": ["Baby", "Doll"],
+    "createdAt": 1542107389454,
+    "inStock": true
+  },
+  {
+    "_id": "T103",
+    "name": "Trees puzzle",
+    "price": 70,
+    "labels": ["Puzzle", "Adults"],
+    "createdAt": 1637419147163,
+    "inStock": true
+  }
+]

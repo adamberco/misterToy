@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Katan",
+    "price": 60,
+    "labels": ["Box game"],
+    "createdAt": 1542117389454,
+    "inStock": false,
+    "reviews": [
+      {
+        "txt": "Great toy!"
+      },
+      {
+        "txt": "Broke after two days, not worth the price!"
+      }
+    ]
+  },
+  {
+    "name": "Doll",
+    "price": 50,
+    "labels": ["Baby", "Doll"],
+    "createdAt": 1542107389454,
+    "inStock": true
+  },
+  {
+    "name": "Trees puzzle",
+    "price": 70,
+    "labels": ["Puzzle", "Adults"],
+    "createdAt": 1637419147163,
+    "inStock": false,
+    "reviews": [
+      {
+        "txt": "Great toy!"
+      },
+      {
+        "txt": "Broke after two days, not worth the price!"
+      }
+    ]
+  },
+  {
+    "name": "Puzzle",
+    "price": "100",
+    "labels": ["puzzle"],
+    "createdAt": 1637697432802,
+    "inStock": true,
+    "reviews": [
+      {
+        "txt": "Great toy!"
+      },
+      {
+        "txt": "Broke after two days, not worth the price!"
+      }
+    ]
+  },
+  {
+    "name": "Box game",
+    "price": "100",
+    "labels": [],
+    "createdAt": 1637762357649,
+    "inStock": true,
+    "reviews": [
+      {
+        "txt": "Great toy!"
+      },
+      {
+        "txt": "Broke after two days, not worth the price!"
+      }
+    ]
+  },
+  {
+    "name": "Bike",
+    "price": "5000",
+    "labels": ["On wheels", "Outdoor"],
+    "createdAt": 1637767773632,
+    "inStock": false,
+    "reviews": [
+      {
+        "txt": "Great toy!"
+      },
+      {
+        "txt": "Broke after two days, not worth the price!"
+      }
+    ]
+  },
+  {
+    "name": "Jumping rope",
+    "price": "12",
+    "labels": ["Outdoor"],
+    "createdAt": 1637853460959,
+    "inStock": true
+  },
+  [
+    {
+      "fullName": "Adam Bercovich",
+      "username": "berco",
+      "password": "123123",
+      "isAdmin": true
+    },
+    {
+      "fullName": "Stacey Watson",
+      "username": "HCookson",
+      "password": "9SMW0jCt",
+      "isAdmin": false
+    },
+    {
+      "fullName": "Amani Mcmyne",
+      "username": "MSchramm",
+      "password": "7hvv1n7D",
+      "isAdmin": false
+    },
+    {
+      "fullName": "Linnette Vigil",
+      "username": "PWelsh",
+      "password": "W5O8ZdqE",
+      "isAdmin": false
+    },
+    {
+      "fullName": "Rene Rannila",
+      "username": "LGrossman",
+      "password": "ciKttb04",
+      "isAdmin": false
+    },
+    {
+      "fullName": "Grady Wurttemberg",
+      "username": "TMadison",
+      "password": "Ue57IptX",
+      "isAdmin": false
+    }
+  ]
+]
