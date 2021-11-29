@@ -7,7 +7,7 @@ async function query(filterBy = {}) {
         const criteria = _buildCriteria(filterBy)
         const collection = await dbService.getCollection('review')
         // const reviews = await collection.find(criteria).toArray()
-        console.log('collection', collection)
+        // console.log('collection', collection)
         var reviews = await collection.aggregate([
             {
                 $match: criteria
@@ -39,7 +39,7 @@ async function query(filterBy = {}) {
         ]).toArray()
         reviews = reviews.map(review => {
             review.byUser = { _id: review.byUser._id, fullName: review.byUser.fullName }
-            review.aboutToy = { _id: review.aboutToy._id, name: review.aboutToy.name }
+            review.aboutToy = { _id: review.aboutToy._id, name: review.aboutToy.name, price: review.aboutToy.price }
             delete review.byUserId
             delete review.aboutToyId
             return review
